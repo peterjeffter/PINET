@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     padding: 0;
     font-family: "Open Sans", sans-serif;
@@ -102,3 +103,109 @@ h2{
 a{
     text-decoration: none;
 }
+=======
+body{
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+  font-optical-sizing:auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.heada{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #713d92;
+    height: 70px;
+    z-index: 100;
+}
+.heada p{
+    font-size: 20px;
+    color: white;
+    margin-right: 10px;
+}
+.heada img{
+    width: 20px;
+    height: 20px;
+}
+.back{
+    opacity: 0.3;
+    margin-left: 20px;
+}
+.dropdown{
+    margin-right: 20px;
+}
+.midsec{
+    display: flex;
+    align-items: center;
+    
+}
+.midsec img{
+    width: 25px;
+    height: 25px;
+}
+.pilogo{
+    width: 110px;
+    margin-bottom: 30px;
+}
+.lowerdiv{
+    position: relative;
+    top: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 55px;
+}
+h2{
+    margin: 0;
+    color: #f6b133;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.menudiv{
+    display: grid;
+    grid-template-columns: 87px 87px 87px;
+    column-gap: 35px;
+    row-gap: 35px;
+    margin-top: 20px;
+    margin-bottom: 55px;
+}
+.menudiv img{
+    width: 75px;
+}
+.menudiv div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menudiv span{
+    margin-top: 5px;
+    color: #713d92;
+    font-size: 15px;
+}
+.explor{
+    width: 30px;
+    margin-right:10px ;
+}
+.explorebtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: #713d92;
+    border: none;
+    height: 45px;
+    color: white;
+    width: 340px;
+    border-radius: 15px;
+    font-size: 15px;
+}
+a{
+    text-decoration: none;
+}
+>>>>>>> f573e8ac046433273d5bac9a274ef75336a3c33e
