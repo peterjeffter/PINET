@@ -1,6 +1,6 @@
 <<<<<<< HEAD
 const mongoose = require('mongoose')
-
+const dbUrl = mongodb+srv://ngutorugbor1:IPVOnNMPV0Z5AMAi@nodecluster.p2nljdn.mongodb.net/?retryWrites=true&w=majority&appName=nodecluster
 
 const connectDB = async (url)=>{
   try {
